@@ -369,6 +369,14 @@ function App() {
                       <CopyButton text="?autoplay=true" className="flex-shrink-0" />
                     </div>
                   </div>
+
+                  <div>
+                    <h4 className="font-semibold mb-2">Enable autonext parameter:</h4>
+                    <div className="flex items-center justify-between gap-4 bg-gray-800 p-3 rounded">
+                      <code className="text-sm text-gray-300">?autonext=true</code>
+                      <CopyButton text="?autonext=true" />
+                    </div>
+                  </div>
                   
                   <div>
                     <h4 className="font-semibold mb-2">Custom red theme:</h4>
@@ -408,14 +416,6 @@ function App() {
                           />
                         </div>
                       )}
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold mb-2">Enable autonext parameter:</h4>
-                    <div className="flex items-center justify-between gap-4 bg-gray-800 p-3 rounded">
-                      <code className="text-sm text-gray-300">?autonext=true</code>
-                      <CopyButton text="?autonext=true" />
                     </div>
                   </div>
                 </div>
